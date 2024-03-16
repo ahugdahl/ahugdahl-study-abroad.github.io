@@ -1,0 +1,466 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#1AC0C6;
+	width: 960px;
+	height: auto 0;
+	display: 0px auto;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-align: center;
+	font-size:16px;
+
+}
+
+nav {
+	background-color:#FDFA66;
+	padding: 10px;
+	border-radius: 15px;
+	text-align: center;
+	}
+
+nav li {
+	display:inline;
+	padding: 10px;
+}
+
+#homepage_photo {
+	width: 300px;
+	height: 330px;
+	margin-left: 60px;
+	float: left;
+	border:15px;
+	border-color:#FACD60;
+	border-style:solid;
+	border-radius: 15px;
+}
+
+blockquote {
+	float: right;
+	width: 300px;
+	font-size: 130%;
+	padding: 30px;
+	margin-right: 60px;
+	background-color:#FACD60; 
+	border-radius: 15px;
+	}
+
+blockquote li{
+	list-style-position: inside;
+}
+
+#lexi_capitol {
+	
+	width: 300px;
+	height: 350px;
+	margin-left: 50px;
+	margin-bottom: 30px;
+	margin-top: 10px;
+	float: left;
+	border:15px;
+	border-color:white;
+	border-style:solid;
+	border-radius: 15px;
+	
+}
+
+#sagrada_familia {
+	width: 300px;
+	height: 350px;
+	margin-right: 50px;
+	margin-top: 30px;
+	float: right;
+	border:15px;
+	border-color:white;
+	border-style:solid;
+	border-radius: 15px;
+}
+
+p.one {
+	width: 400px;
+	border-width: 15px;
+	border-style: solid;
+	border-color: #FACD60;
+	margin-top: 20px;
+	float:right;
+	padding: 30px;
+	border-radius: 15px;
+	font-size: 110%;
+}
+
+p.two {
+	width: 400px;
+	border-width: 15px;
+	border-style: solid;
+	border-color: #F9B30A;
+	float:right;
+	padding: 30px;
+	border-radius: 15px;
+	font-size: 110%;
+}
+
+p.three {
+	width: 400px;
+	border-width: 15px;
+	border-style: solid;
+	border-color: #FB7756;
+	float:left;
+	padding: 30px;
+	border-radius: 15px;
+	font-size: 110%;
+}
+
+p.four {
+	width: 400px;
+	border-width: 15px;
+	border-style: solid;
+	border-color: #E74645;
+	float:left;
+	padding: 30px;
+	border-radius: 15px;
+	font-size: 110%;
+}
+
+
+
+h3.barcelonah {
+	padding: 10px;
+	text-align:center;
+	background-color:#FACD60;
+	height: 20px;
+	border-radius: 15px;
+}
+
+#park_guell {
+	width: 300px;
+	height: 375px;
+	margin-left: 50px;
+	float: left;
+	border-color: white;
+	border: 20px;
+	border-style: solid;
+	border-radius: 15px;
+}
+
+p.barcelonap {
+	width: 400px;
+	background-color:#FACD60;
+	float: right;
+	border-color:#FACD60;
+	border-width: 15px;
+	border-style: solid;
+	border-radius: 15px;
+	margin-top: 120px;
+	margin-bottom: 160px;
+	margin-right:50px;
+}
+
+h3.viennah {
+	padding: 10px;
+	margin-top: 450px;
+	text-align:center;
+	background-color:#FACD60;
+	height: 20px;
+	border-radius: 15px;
+}
+
+#vienna {
+	width: 300px;
+	height: 375px;
+	margin-left: 50px;
+	float: left;
+	border-color: #FACD60;
+	border: 20px;
+	border-style: solid;
+	border-radius: 15px;
+}
+
+p.viennap {
+	width: 400px;
+	background-color:#FACD60;
+	float: right;
+	border-color:#FACD60;
+	border-width: 15px;
+	border-style: solid;
+	border-radius: 15px;
+	margin-top: 140px;
+	margin-bottom: 160px;
+	margin-right:50px;
+}
+
+h3.amsterdamh {
+	padding: 10px;
+	margin-top: 450px;
+	text-align:center;
+	background-color:#F9B30A;
+	height: 20px;
+	border-radius: 15px;
+}
+
+#amsterdam {
+	width: 300px;
+	height: 375px;
+	margin-left: 50px;
+	float: left;
+	border-color: darkgreen;
+	border: 20px;
+	border-style: solid;
+	border-radius: 15px;
+}
+
+p.amsterdamp {
+	width: 400px;
+	background-color:#F9B30A;
+	float: right;
+	border-color:#F9B30A;
+	border-width: 15px;
+	border-style: solid;
+	border-radius: 15px;
+	margin-top: 140px;
+	margin-bottom: 160px;
+	margin-right:50px;
+}
+
+h3.lisbonh {
+	padding: 10px;
+	margin-top: 450px;
+	text-align:center;
+	background-color:#F9B30A;
+	height: 20px;
+	border-radius: 15px;
+}
+
+#lisbon {
+	width: 300px;
+	height: 375px;
+	margin-left: 50px;
+	float: left;
+	border-color: darkgreen;
+	border: 20px;
+	border-style: solid;
+	border-radius: 15px;
+}
+
+p.lisbonp {
+	width: 400px;
+	background-color:#F9B30A;
+	float: right;
+	border-color:#F9B30A;
+	border-width: 15px;
+	border-style: solid;
+	border-radius: 15px;
+	margin-top: 140px;
+	margin-bottom: 160px;
+	margin-right:50px;
+}
+
+h3.parish {
+	padding: 10px;
+	margin-top: 450px;
+	background-color:#FB7756;
+	height: 20px;
+	border-radius: 15px;
+	text-align:center;
+}
+
+#paris {
+	width: 300px;
+	height: 375px;
+	margin-left: 50px;
+	float: left;
+	border-color: darkgreen;
+	border: 20px;
+	border-style: solid;
+	border-radius: 15px;
+}
+
+p.parisp {
+	width: 400px;
+	background-color:#FB7756;
+	float: right;
+	border-color:#FB7756;
+	border-width: 15px;
+	border-style: solid;
+	border-radius: 15px;
+	margin-top: 140px;
+	margin-bottom: 160px;
+	margin-right:50px;
+}
+
+h3.londonh {
+	padding: 10px;
+	margin-top: 450px;
+	background-color:#FB7756;
+	height: 20px;
+	border-radius: 15px;
+	text-align:center;
+}
+
+#london {
+	width: 300px;
+	height: 375px;
+	margin-left: 50px;
+	float: left;
+	border-color: darkgreen;
+	border: 20px;
+	border-style: solid;
+	border-radius: 15px;
+}
+
+p.londonp {
+	width: 400px;
+	background-color:#FB7756;
+	float: right;
+	border-color:#FB7756;
+	border-width: 15px;
+	border-style: solid;
+	border-radius: 15px;
+	margin-top: 120px;
+	margin-bottom: 160px;
+	margin-right:50px;
+}
+
+h3.copenhagenh {
+	padding: 10px;
+	margin-top: 450px;
+	background-color:#E74645;
+	height: 20px;
+	border-radius: 15px;
+	text-align:center;
+}
+
+#copenhagen {
+	width: 300px;
+	height: 375px;
+	margin-left: 50px;
+	float: left;
+	border-color: darkgreen;
+	border: 20px;
+	border-style: solid;
+	border-radius: 15px;
+}
+
+p.copenhagenp {
+	width: 400px;
+	background-color:#E74645;
+	float: right;
+	border-color:#E74645;
+	border-width: 15px;
+	border-style: solid;
+	border-radius: 15px;
+	margin-top: 140px;
+	margin-bottom: 160px;
+	margin-right:50px;
+}
+
+h3.romeh {
+	padding: 10px;
+	margin-top: 450px;
+	background-color:#E74645;
+	height: 20px;
+	border-radius: 15px;
+	text-align:center;
+}
+
+#rome {
+	width: 300px;
+	height: 375px;
+	margin-left: 50px;
+	float: left;
+	border-color: #E74645;
+	border: 20px;
+	border-style: solid;
+	border-radius: 15px;
+}
+
+p.romep {
+	width: 400px;
+	background-color:#E74645;
+	float: right;
+	border-color:#E74645;
+	border-width: 15px;
+	border-style: solid;
+	border-radius: 15px;
+	margin-top: 120px;
+	margin-bottom: 160px;
+	margin-right:50px;
+}
+
+h3.athensh {
+	padding: 10px;
+	margin-top: 450px;
+	background-color:#F50B1D;
+	height: 20px;
+	border-radius: 15px;
+	text-align:center;
+}
+
+#athens {
+	width: 300px;
+	height: 375px;
+	margin-left: 50px;
+	float: left;
+	border-color: darkgreen;
+	border: 20px;
+	border-style: solid;
+	border-radius: 15px;
+}
+
+p.athensp {
+	width: 400px;
+	background-color:#F50B1D;
+	float: right;
+	border-color:#F50B1D;
+	border-width: 15px;
+	border-style: solid;
+	border-radius: 15px;
+	margin-top: 140px;
+	margin-bottom: 160px;
+	margin-right:50px;
+	}
+
+
+ul.transportation {
+	width: 600px;
+	margin-top: 30px;
+	margin-bottom: 50px; 
+	padding: 10px;
+	background-color: #FACD60;
+	margin-left:180px;
+	border-radius: 15px;
+	list-style-position: inside;
+	font-size: 110%;
+}
+
+ul.communication {
+	width: 600px;
+	margin: 50px; 
+	padding: 10px;
+	background-color: #F9B30A;
+	margin-left:180px;
+	border-radius: 15px;
+	list-style-position: inside;
+	font-size: 110%;
+	
+}
+
+ul.accommodations {
+	width: 600px;
+	margin: 50px; 
+	padding: 10px;
+	background-color: #FB7756;
+	margin-left:180px;
+	border-radius: 15px;
+	list-style-position: inside;
+	font-size: 110%;
+}
+
+
+#photo_collage {
+	Width: 900px;
+	border-color:#E74645;
+	border-width: 5px;
+	border-style: solid;
+	border-radius: 15px;
+	
+}
